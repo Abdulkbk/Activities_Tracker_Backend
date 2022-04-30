@@ -10,7 +10,7 @@ Has **4** functionalities as follows:
 | *getActivity()* | Gets a list of stored/added activities |
 | *createActivity()* | Creates new activity |
 | *updateActivity()* | Modifies existing activity |
-| * deleteActivity()* | Deleetes existing activity from DB | 
+| *deleteActivity()* | Deleetes existing activity from DB | 
 
 The coolest thing about this project is how well the folders are structured and easily navigated.
 
