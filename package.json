@@ -1,0 +1,25 @@
+{
+  "name": "food",
+  "version": "1.0.0",
+  "description": "Food Store",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "cd frontend && npm run dev",
+    "app": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Abdullahi Yunus",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
